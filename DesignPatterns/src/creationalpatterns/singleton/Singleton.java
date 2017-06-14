@@ -16,7 +16,7 @@ public class Singleton {
      * tanimlaniyor.
      */
 
-    private static Singleton instance = null;
+    private static volatile Singleton instance = null;
     /*
      * Double check locking yapabilmek
      * icin kullanilan nesne.
